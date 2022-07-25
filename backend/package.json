@@ -2,7 +2,10 @@
   "name": "boss-api",
   "version": "1.0.0",
   "description": "Api para o HandsOn Final da Gama Academy",
-  "main": "index.js",
+  "main": "main.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --ignore-watch node_modules -r dotenv/config dist/main.js dotenv_config_path=.env --files"
