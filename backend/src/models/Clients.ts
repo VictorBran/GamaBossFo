@@ -45,6 +45,6 @@ const clientSchema = new Schema<IClient>(
           },
     },
     { timestamps: true }
-);
+);;
 
 export default model<IClient>("Clientes", clientSchema);
